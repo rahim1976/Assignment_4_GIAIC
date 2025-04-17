@@ -6,7 +6,7 @@ def print_divisors(num: int):
             print(curr_divisor)
 
 def main():
-    num = int(input("Enter a number: "))
+    num = int(input("\033[34mEnter a number: \033[0m"))
     print_divisors(num)
 
 if __name__ == '__main__':
